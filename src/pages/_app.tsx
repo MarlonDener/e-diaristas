@@ -3,7 +3,8 @@ import { theme } from "ui/theme/theme";
 import { ThemeProvider } from "@material-ui/core";
 import Head from "next/head";
 import Header from "ui/components/surfaces/Header/Header";
-
+import Footer from "ui/components/surfaces/Footer/Footer";
+import { AppContainer } from "ui/styles/pages/_app.style";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -17,8 +18,11 @@ function MyApp({ Component, pageProps }) {
         <link href="/fonts/tw-icons/css/treinaweb-icons.css" rel="stylesheet" />
       </Head>
       <ThemeProvider theme={theme}>
-        <Header />
-        <Component {...pageProps} />;
+        <AppContainer>
+          <Header />
+          <Component {...pageProps} />;
+          <Footer />
+        </AppContainer>
       </ThemeProvider>
     </>
   );
