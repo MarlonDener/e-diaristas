@@ -11,7 +11,7 @@
 
 ## 💻 Sobre o projeto
 
-Diaristas - <h5> é uma aplicação que retorna dados de uma API através do CEP, que fornece diaristas mais perto de sua residêmcia.</h5>
+Diaristas:<h5> É uma aplicação que retorna dados de uma API através do CEP, que fornece diaristas mais perto de sua residêmcia.</h5>
 ---
 ## ⚙️ Funcionalidades
 
