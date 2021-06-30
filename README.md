@@ -30,6 +30,7 @@ Diaristas:<h5> É uma aplicação que retorna dados de uma API através do CEP, 
 
 ---
 
+
 ## 🚀 Como executar o projeto
 
 ### Pré-requisitos
